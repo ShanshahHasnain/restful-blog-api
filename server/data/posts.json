@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Mera Pehla Blog",
+    "excerpt": "Yeh mera pehla blog post hai",
+    "content": "Main bahut khush hoon ki mera pehla blog post likh raha hoon. Ye experiment bahut acha hai."
+  },
+  {
+    "id": 2, 
+    "title": "Programming Seekhna",
+    "excerpt": "Kaise seekhe coding step by step",
+    "content": "Programming seekhne ke liye practice karte raho. Roz thoda time nikaalo coding ke liye."
+  },
+  {
+    "id": 3,
+    "title": "Backend Development",
+    "excerpt": "Server side programming ka basic",
+    "content": "Backend development mein hum server banate hain jo data manage karta hai."
+  }
+]
