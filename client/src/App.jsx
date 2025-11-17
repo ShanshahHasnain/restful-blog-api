@@ -6,21 +6,34 @@ function App() {
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState('')
 
+  // ✅ PRODUCTION BACKEND URL
+  const API_BASE_URL = 'https://restful-blog-api-p2yo.onrender.com'
+
   const fetchPosts = async () => {
     try {
       setLoading(true)
       const url = search 
-        ? `http://localhost:5000/api/posts?q=${search}`
-        : 'http://localhost:5000/api/posts'
+        ? `${API_BASE_URL}/api/posts?q=${search}`
+        : `${API_BASE_URL}/api/posts`
+      
+      console.log('Fetching from:', url) // Debug ke liye
       
       const response = await fetch(url)
+      
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`)
+      }
+      
       const data = await response.json()
       
       if (data.posts) {
         setPosts(data.posts)
+      } else {
+        setPosts([])
       }
     } catch (error) {
-      console.log('Error:', error)
+      console.log('Error fetching posts:', error)
+      setPosts([])
     } finally {
       setLoading(false)
     }
@@ -69,7 +82,13 @@ function App() {
             ))}
           </div>
         ) : (
-          <div className="no-posts">No posts found or server connection issue.</div>
+          <div className="no-posts">
+            No posts found. 
+            <br />
+            <button onClick={fetchPosts} style={{marginTop: '10px', padding: '8px 16px'}}>
+              Try Again
+            </button>
+          </div>
         )}
       </main>
     </div>
