@@ -6,6 +6,7 @@ function App() {
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState('')
 
+  // ✅ PRODUCTION BACKEND URL
   const API_BASE_URL = 'https://restful-blog-api-p2yo.onrender.com'
 
   const fetchPosts = async () => {
@@ -14,8 +15,6 @@ function App() {
       const url = search 
         ? `${API_BASE_URL}/api/posts?q=${search}`
         : `${API_BASE_URL}/api/posts`
-      
-      console.log('Fetching from:', url) // Debug ke liye
       
       const response = await fetch(url)
       
@@ -84,7 +83,7 @@ function App() {
           <div className="no-posts">
             No posts found. 
             <br />
-            <button onClick={fetchPosts} style={{marginTop: '10px', padding: '8px 16px'}}>
+            <button onClick={fetchPosts} style={{marginTop: '10px', padding: '8px 16px', background: '#007bff', color: 'white', border: 'none', borderRadius: '5px', cursor: 'pointer'}}>
               Try Again
             </button>
           </div>
