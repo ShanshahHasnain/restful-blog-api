@@ -6,7 +6,6 @@ function App() {
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState('')
 
-  // ✅ PRODUCTION BACKEND URL
   const API_BASE_URL = 'https://restful-blog-api-p2yo.onrender.com'
 
   const fetchPosts = async () => {
