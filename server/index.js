@@ -4,8 +4,6 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-
-// ✅ PORT environment variable use karo
 const PORT = process.env.PORT || 5000;
 
 app.use(cors());
@@ -21,6 +19,14 @@ app.get('/api/health', (req, res) => {
 app.get('/api/posts', (req, res) => {
   try {
     const filePath = path.join(__dirname, 'data', 'posts.json');
+    
+    // ✅ Check if file exists
+    if (!fs.existsSync(filePath)) {
+      return res.status(500).json({
+        error: 'Posts file nahi mili'
+      });
+    }
+    
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const allPosts = JSON.parse(fileContent);
     
@@ -56,6 +62,13 @@ app.get('/api/posts/:id', (req, res) => {
     const postId = parseInt(req.params.id);
     const filePath = path.join(__dirname, 'data', 'posts.json');
     
+    // ✅ Check if file exists
+    if (!fs.existsSync(filePath)) {
+      return res.status(500).json({
+        error: 'Posts file nahi mili'
+      });
+    }
+    
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const allPosts = JSON.parse(fileContent);
     
@@ -80,7 +93,6 @@ app.get('/api/posts/:id', (req, res) => {
   }
 });
 
-// ✅ '0.0.0.0' add karo production ke liye
 app.listen(PORT, '0.0.0.0', () => {
   console.log('Server shuru ho gaya: http://localhost:' + PORT);
   console.log('Health check: http://localhost:' + PORT + '/api/health');
