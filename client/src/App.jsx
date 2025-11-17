@@ -6,7 +6,6 @@ function App() {
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState('')
 
-  // Server se posts fetch karo
   const fetchPosts = async () => {
     try {
       setLoading(true)
@@ -27,12 +26,10 @@ function App() {
     }
   }
 
-  // Component load hote hi posts fetch karo
   useEffect(() => {
     fetchPosts()
   }, [])
 
-  // Search karne ka function
   const handleSearch = (e) => {
     e.preventDefault()
     fetchPosts()
@@ -57,7 +54,7 @@ function App() {
         </form>
       </header>
 
-      <main className="main-content">
+      <main>
         {loading ? (
           <div className="loading">Loading posts...</div>
         ) : posts.length > 0 ? (
