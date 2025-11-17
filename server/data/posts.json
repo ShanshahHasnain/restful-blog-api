@@ -1,20 +1,302 @@
 [
   {
     "id": 1,
-    "title": "Getting Started with React.js",
-    "excerpt": "Learn the basics of React components and hooks",
-    "content": "React is a popular JavaScript library for building user interfaces. In this guide, we'll cover components, JSX, state management, and hooks like useState and useEffect."
+    "title": "Pakistan's Economy Shows 4.2% Growth in 2025",
+    "excerpt": "IMF program success leads to economic recovery",
+    "content": "Pakistan's economy has shown remarkable recovery with 4.2% GDP growth in 2025. Successful completion of IMF program, increased remittances, and improved exports have stabilized the economic situation. The stock market has reached record highs and inflation has reduced to single digits."
   },
   {
     "id": 2,
-    "title": "Node.js REST API Tutorial", 
-    "excerpt": "Build a complete RESTful API with Express.js",
-    "content": "Learn how to create a REST API using Node.js and Express. We'll cover routing, middleware, error handling, and connecting to databases."
+    "title": "Digital Pakistan Initiative 2025",
+    "excerpt": "Government launches nationwide digital transformation",
+    "content": "The Digital Pakistan initiative has expanded to all major cities with 5G rollout completed in 15 cities. E-governance services have reduced corruption and improved efficiency. Digital payment systems have seen 300% growth, making Pakistan a emerging tech hub in the region."
   },
   {
     "id": 3,
-    "title": "CSS Grid vs Flexbox",
-    "excerpt": "When to use Grid and when to use Flexbox",
-    "content": "Both CSS Grid and Flexbox are powerful layout systems. Grid is ideal for two-dimensional layouts, while Flexbox works better for one-dimensional layouts."
+    "title": "CPEC Phase 2: Industrial Cooperation",
+    "excerpt": "New industrial zones create 50,000 jobs",
+    "content": "CPEC Phase 2 has entered industrial cooperation stage with 9 special economic zones becoming operational. Chinese companies have invested $5 billion in manufacturing, creating 50,000 new jobs. Infrastructure development has connected Gwadar port to national highways."
+  },
+  {
+    "id": 4,
+    "title": "Climate Change: Pakistan's Water Crisis",
+    "excerpt": "Drought conditions affect agricultural output",
+    "content": "Pakistan faces severe water shortage with reservoir levels at 30% capacity. Climate change has altered monsoon patterns, affecting wheat and cotton production. The government has launched water conservation campaigns and dam construction projects to address the crisis."
+  },
+  {
+    "id": 5,
+    "title": "Tech Startup Ecosystem Booms in Pakistan",
+    "excerpt": Pakistani startups raise $500 million in 2025",
+    "content": "Pakistan's startup ecosystem has attracted $500 million in venture capital in 2025. Fintech, edtech, and healthtech startups are leading the growth. Government policies and international investor interest have made Pakistan the fastest growing startup market in South Asia."
+  },
+  {
+    "id": 6,
+    "title": "Education Reform: Single National Curriculum",
+    "excerpt": "New education policy implemented nationwide",
+    "content": "The Single National Curriculum has been fully implemented across all provinces. Digital classrooms and teacher training programs have improved education quality. Literacy rate has increased to 65% with special focus on female education in rural areas."
+  },
+  {
+    "id": 7,
+    "title": "Healthcare: Sehat Card Expanded",
+    "excerpt": "Universal health coverage reaches 80% population",
+    "content": "Sehat Card program has been expanded to cover 80% of Pakistan's population. Free healthcare services include surgeries, medicines, and diagnostic tests. The program has significantly reduced out-of-pocket health expenses for poor families."
+  },
+  {
+    "id": 8,
+    "title": "Renewable Energy: Solar Power Expansion",
+    "excerpt": "Solar parks to generate 10,000 MW by 2026",
+    "content": "Pakistan has launched massive solar energy projects aiming for 10,000 MW capacity. Solar parks in Cholistan and Balochistan will reduce dependence on imported fuel. Net metering policy has encouraged households to install solar panels, creating green energy revolution."
+  },
+  {
+    "id": 9,
+    "title": "Tourism Revival: Visit Pakistan 2025",
+    "excerpt": "International tourist arrivals increase by 45%",
+    "content": "Visit Pakistan 2025 campaign has attracted record number of tourists. Northern areas including Swat, Hunza, and Skardu have seen 45% increase in foreign visitors. Improved security and infrastructure have positioned Pakistan as emerging tourism destination."
+  },
+  {
+    "id": 10,
+    "title": "Agriculture: Smart Farming Adoption",
+    "excerpt": "Technology transforms traditional farming methods",
+    "content": "Smart farming technologies including IoT sensors, drones, and AI-based crop monitoring are being adopted by Pakistani farmers. Precision agriculture has increased yields by 25% while reducing water and fertilizer usage. Government subsidies support farmers in technology adoption."
+  },
+  {
+    "id": 11,
+    "title": "AI Revolution in Pakistani Industries",
+    "excerpt": "Artificial Intelligence transforming manufacturing and services",
+    "content": "Pakistani industries are rapidly adopting AI technologies. Textile sector uses AI for quality control, banking for fraud detection, and healthcare for diagnostics. Government has established National AI Center to promote research and development in artificial intelligence."
+  },
+  {
+    "id": 12,
+    "title": "Electric Vehicles: Policy Implementation",
+    "excerpt": "EV adoption gains momentum with government support",
+    "content": "Electric vehicle policy has resulted in 50,000 EVs on Pakistani roads. Charging infrastructure expanded to major highways. Local assembly of electric cars and motorcycles has started, creating new manufacturing opportunities and reducing oil imports."
+  },
+  {
+    "id": 13,
+    "title": "Women Empowerment: Digital Skills Program",
+    "excerpt": "1 million women trained in digital technologies",
+    "content": "Digital Skills for Women program has trained 1 million females in coding, digital marketing, and e-commerce. Women-led startups have increased by 200%. Remote work opportunities have enabled women from conservative areas to participate in digital economy."
+  },
+  {
+    "id": 14,
+    "title": "Cybersecurity: National Digital Protection",
+    "excerpt": "New cybersecurity framework protects digital infrastructure",
+    "content": "Pakistan has implemented comprehensive cybersecurity framework to protect critical digital infrastructure. National Response Center for Cyber Crimes handles 5000 cases monthly. Banks and government institutions have upgraded security systems against cyber threats."
+  },
+  {
+    "id": 15,
+    "title": "Media Freedom: Digital Media Expansion",
+    "excerpt": "Digital platforms transform news consumption",
+    "content": "Digital media platforms have gained 50 million new users in Pakistan. Independent news channels and YouTube creators provide alternative perspectives. Social media regulation balanced with freedom of expression has created vibrant digital media ecosystem."
+  },
+  {
+    "id": 16,
+    "title": "Global AI Regulation Framework 2025",
+    "excerpt": "United Nations establishes AI governance standards",
+    "content": "The UN has approved global AI regulation framework to ensure ethical AI development. Standards address privacy, bias prevention, and human oversight. All member countries including Pakistan are required to implement these regulations by 2026."
+  },
+  {
+    "id": 17,
+    "title": "Quantum Computing Breakthrough 2025",
+    "excerpt": "Scientists achieve quantum supremacy with new processor",
+    "content": "Google and IBM have independently developed 1000-qubit quantum processors. These systems can solve complex optimization problems in minutes. Quantum computing applications in drug discovery and climate modeling show promising results."
+  },
+  {
+    "id": 18,
+    "title": "Climate Change: Global Temperature Rise",
+    "excerpt": "2025 recorded as hottest year in history",
+    "content": "Global temperatures have increased by 1.5°C above pre-industrial levels. Extreme weather events including floods, droughts, and wildfires have affected millions. Paris Agreement targets seem challenging as countries struggle to reduce emissions."
+  },
+  {
+    "id": 19,
+    "title": "Space Exploration: Mars Colony Plans",
+    "excerpt": "NASA and SpaceX announce Mars settlement timeline",
+    "content": "NASA and SpaceX have revealed plans for permanent Mars settlement by 2030. First crewed mission scheduled for 2028 will establish initial habitat. Technological challenges including radiation protection and life support systems being addressed."
+  },
+  {
+    "id": 20,
+    "title": "Renewable Energy: Fusion Power Progress",
+    "excerpt": "Nuclear fusion experiment achieves energy gain",
+    "content": "ITER project has demonstrated net energy gain from nuclear fusion. This breakthrough promises unlimited clean energy. Commercial fusion power plants expected by 2040 could solve global energy crisis without carbon emissions."
+  },
+  {
+    "id": 21,
+    "title": "Global Economic Outlook 2025",
+    "excerpt": "World economy shows mixed recovery patterns",
+    "content": "Global economy growing at 3.2% with emerging markets leading recovery. Inflation control remains challenge for developed economies. Digital economy contributing 25% to global GDP with AI and automation driving productivity."
+  },
+  {
+    "id": 22,
+    "title": "Healthcare: mRNA Vaccine Advancements",
+    "excerpt": "New mRNA platforms developed for various diseases",
+    "content": "mRNA technology used for COVID-19 vaccines now being applied to cancer, HIV, and malaria. Clinical trials show promising results. This platform allows rapid development of vaccines for emerging infectious diseases."
+  },
+  {
+    "id": 23,
+    "title": "Cryptocurrency Regulation Global Standards",
+    "excerpt": "International framework for digital assets established",
+    "content": "G20 countries have agreed on common cryptocurrency regulation standards. These address money laundering, investor protection, and financial stability. Central bank digital currencies being developed as alternative to private cryptocurrencies."
+  },
+  {
+    "id": 24,
+    "title": "Artificial General Intelligence Research",
+    "excerpt": "Major progress towards human-level AI capabilities",
+    "content": "Research in Artificial General Intelligence has accelerated with new neural architectures. While true AGI remains elusive, systems show reasoning and learning across multiple domains. Ethical concerns about superintelligent AI being addressed by researchers."
+  },
+  {
+    "id": 25,
+    "title": "Sustainable Development Goals Progress",
+    "excerpt": "UN reviews 2030 Agenda implementation",
+    "content": "Mid-term review of Sustainable Development Goals shows mixed progress. Poverty reduction and education targets on track while climate action lagging. Digital technologies identified as key enabler for achieving remaining goals."
+  },
+  {
+    "id": 26,
+    "title": "6G Technology Development",
+    "excerpt": "Next-generation wireless standards being developed",
+    "content": "6G technology research has begun with expected launch around 2030. Promises speeds 100x faster than 5G with near-zero latency. Applications include holographic communication, autonomous systems, and advanced IoT networks."
+  },
+  {
+    "id": 27,
+    "title": "Ocean Conservation: Plastic Pollution Solution",
+    "excerpt": "New technology removes plastic from oceans",
+    "content": "Advanced ocean cleanup systems using AI and robotics have removed 1 million tons of plastic. Biodegradable alternatives to single-use plastics gaining popularity. International treaty on plastic pollution being negotiated."
+  },
+  {
+    "id": 28,
+    "title": "Mental Health: Digital Therapeutics",
+    "excerpt": "AI-powered apps provide mental health support",
+    "content": "Digital mental health platforms using AI chatbots and VR therapy have helped 50 million people. These tools provide accessible, affordable mental health support. Clinical studies show effectiveness comparable to traditional therapy for mild to moderate conditions."
+  },
+  {
+    "id": 29,
+    "title": "Food Security: Vertical Farming Expansion",
+    "excerpt": "Indoor farming addresses urban food needs",
+    "content": "Vertical farms using hydroponics and LED lighting are producing fresh vegetables in urban centers. These facilities use 95% less water and no pesticides. Technology makes fresh food available year-round regardless of weather conditions."
+  },
+  {
+    "id": 30,
+    "title": "Blockchain in Supply Chain Management",
+    "excerpt": "Transparent tracking from production to consumer",
+    "content": "Blockchain technology provides end-to-end visibility in supply chains. Consumers can verify product authenticity and ethical sourcing. This reduces fraud, improves efficiency, and builds consumer trust in brands."
+  },
+  {
+    "id": 31,
+    "title": "Remote Work: Hybrid Model Evolution",
+    "excerpt": "Companies adopt flexible work arrangements",
+    "content": "Hybrid work model has become standard with employees spending 2-3 days in office. Productivity increased by 15% while reducing real estate costs. Digital collaboration tools and virtual offices have transformed work culture globally."
+  },
+  {
+    "id": 32,
+    "title": "Biotechnology: Gene Editing Ethics",
+    "excerpt": "Global debate on human genome modification",
+    "content": "CRISPR gene editing technology raises ethical questions about human enhancement. International guidelines being developed for therapeutic vs enhancement applications. Medical applications show promise for treating genetic diseases."
+  },
+  {
+    "id": 33,
+    "title": "Smart Cities: Urban Digital Transformation",
+    "excerpt": "IoT and AI create efficient urban environments",
+    "content": "Smart cities use sensors and AI to optimize traffic, energy, and public services. Digital twins simulate urban planning scenarios. These technologies improve quality of life while reducing environmental impact."
+  },
+  {
+    "id": 34,
+    "title": "Digital Currency: Central Bank Initiatives",
+    "excerpt": "80% of central banks developing digital currencies",
+    "content": "Central Bank Digital Currencies (CBDCs) promise faster, cheaper transactions. Pilot projects in major economies show technical feasibility. CBDCs maintain monetary sovereignty while offering digital payment benefits."
+  },
+  {
+    "id": 35,
+    "title": "Space Tourism: Commercial Flights Begin",
+    "excerpt": "Multiple companies offer suborbital experiences",
+    "content": "Space tourism has become commercially viable with several companies offering flights. Prices have dropped to $250,000 making it accessible to more people. Safety regulations and environmental concerns being addressed."
+  },
+  {
+    "id": 36,
+    "title": "Robotics: Human-Robot Collaboration",
+    "excerpt": "Robots work alongside humans in various industries",
+    "content": "Advanced robotics collaborate with human workers in manufacturing, healthcare, and services. Cobots (collaborative robots) enhance human capabilities rather than replacing jobs. This partnership improves productivity and workplace safety."
+  },
+  {
+    "id": 37,
+    "title": "Water Technology: Desalination Advances",
+    "excerpt": "New methods make seawater purification affordable",
+    "content": "Advanced desalination technologies using graphene membranes and solar power have reduced costs by 60%. This makes fresh water available in coastal areas facing scarcity. Environmental impact of brine disposal being minimized."
+  },
+  {
+    "id": 38,
+    "title": "Education: Personalized Learning Platforms",
+    "excerpt": "AI adapts educational content to individual needs",
+    "content": "AI-powered learning platforms analyze student performance and customize content. This personalized approach improves learning outcomes. Digital education has made quality learning accessible to students in remote areas."
+  },
+  {
+    "id": 39,
+    "title": "Healthcare: Telemedicine Expansion",
+    "excerpt": "Virtual consultations become mainstream",
+    "content": "Telemedicine has expanded to cover 80% of medical specialties. Remote monitoring devices transmit patient data to doctors. This improves healthcare access, especially in rural areas, while reducing costs."
+  },
+  {
+    "id": 40,
+    "title": "Agriculture: Climate-Resilient Crops",
+    "excerpt": "New varieties withstand extreme weather conditions",
+    "content": "Genetically modified and traditionally bred climate-resilient crops can withstand drought, floods, and temperature extremes. These varieties help maintain food security despite climate change impacts. Adoption increasing among farmers worldwide."
+  },
+  {
+    "id": 41,
+    "title": "Fintech: Digital Banking Revolution",
+    "excerpt": "Neobanks challenge traditional banking models",
+    "content": "Digital-only banks offer convenient, low-cost financial services. AI-powered fraud detection and personalized financial advice attract customers. Traditional banks are digitizing services to compete with fintech startups."
+  },
+  {
+    "id": 42,
+    "title": "Transportation: Hyperloop Development",
+    "excerpt": "High-speed vacuum tube transport systems tested",
+    "content": "Hyperloop technology promises 1000 km/h travel speeds. Test tracks operational in several countries. This could revolutionize long-distance transportation, reducing travel time between major cities to minutes."
+  },
+  {
+    "id": 43,
+    "title": "Energy Storage: Next-Generation Batteries",
+    "excerpt": "Solid-state batteries offer improved performance",
+    "content": "Solid-state batteries provide higher energy density, faster charging, and improved safety. Mass production starting in 2025 will benefit electric vehicles and renewable energy storage. Recycling technologies minimize environmental impact."
+  },
+  {
+    "id": 44,
+    "title": "Manufacturing: 3D Printing Advances",
+    "excerpt": "Additive manufacturing transforms production",
+    "content": "3D printing now used for complex components in aerospace, healthcare, and construction. Multi-material printing and larger build volumes expand applications. This enables mass customization and reduces waste in manufacturing."
+  },
+  {
+    "id": 45,
+    "title": "Retail: Augmented Reality Shopping",
+    "excerpt": "Virtual try-ons and product visualization",
+    "content": "Augmented reality allows customers to visualize products in their environment before purchase. Virtual try-ons for clothes, furniture placement previews, and makeup testing improve shopping experience and reduce returns."
+  },
+  {
+    "id": 46,
+    "title": "Entertainment: Metaverse Platforms",
+    "excerpt": "Virtual worlds for social interaction and gaming",
+    "content": "Metaverse platforms offer immersive experiences for socializing, gaming, and events. VR and AR technologies create realistic virtual environments. These platforms are becoming new digital economies with virtual real estate and assets."
+  },
+  {
+    "id": 47,
+    "title": "Security: Biometric Authentication",
+    "excerpt": "Multi-factor biometric systems enhance security",
+    "content": "Advanced biometric systems combine facial recognition, voice patterns, and behavioral biometrics. These provide secure authentication for financial transactions and access control. Privacy concerns addressed through local data processing."
+  },
+  {
+    "id": 48,
+    "title": "Environment: Carbon Capture Technology",
+    "excerpt": "Systems remove CO2 from atmosphere",
+    "content": "Direct air capture technology extracts carbon dioxide from atmosphere. Captured CO2 can be stored underground or used in industrial processes. These systems complement emission reduction efforts in climate change mitigation."
+  },
+  {
+    "id": 49,
+    "title": "Research: Open Science Movement",
+    "excerpt": "Collaborative research accelerates discovery",
+    "content": "Open science platforms enable researchers worldwide to collaborate and share data. This accelerates scientific discovery and reduces duplication of effort. AI tools help analyze large datasets and identify patterns."
+  },
+  {
+    "id": 50,
+    "title": "Global Connectivity: Satellite Internet",
+    "excerpt": "Low-earth orbit satellites provide universal access",
+    "content": "Constellations of low-earth orbit satellites deliver high-speed internet globally. This bridges digital divide, providing connectivity to remote areas. Competition among providers has reduced prices and improved service quality."
   }
 ]
