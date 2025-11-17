@@ -1,20 +1,16 @@
-// Pehle required cheezein import karo
 const express = require('express');
 const cors = require('cors'); 
 const fs = require('fs');
 const path = require('path');
 
-// Express app banayo
 const app = express();
-const PORT = 5000; // Simple fixed port
 
-// CORS allow karo taki frontend connect kar sake
+// ✅ PORT environment variable use karo
+const PORT = process.env.PORT || 5000;
+
 app.use(cors());
-
-// JSON data accept karne ke liye
 app.use(express.json());
 
-// Health check - server check karne ke liye
 app.get('/api/health', (req, res) => {
   res.json({
     message: 'Server chal raha hai',
@@ -22,21 +18,15 @@ app.get('/api/health', (req, res) => {
   });
 });
 
-// Saare posts get karne ka function
 app.get('/api/posts', (req, res) => {
   try {
-    // Posts file ka path banaya
     const filePath = path.join(__dirname, 'data', 'posts.json');
-    
-    // File read kiya
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const allPosts = JSON.parse(fileContent);
     
-    // Search ka option agar query aayi hai
     const searchText = req.query.q;
     
     if (searchText) {
-      // Search karo posts mein
       const searchedPosts = allPosts.filter(post => {
         return post.title.toLowerCase().includes(searchText.toLowerCase()) ||
                post.excerpt.toLowerCase().includes(searchText.toLowerCase());
@@ -48,7 +38,6 @@ app.get('/api/posts', (req, res) => {
       });
     }
     
-    // Warna saare posts bhej do
     res.json({
       message: 'Saare posts mil gaye',
       posts: allPosts
@@ -62,7 +51,6 @@ app.get('/api/posts', (req, res) => {
   }
 });
 
-// Ek specific post dhundhne ka function
 app.get('/api/posts/:id', (req, res) => {
   try {
     const postId = parseInt(req.params.id);
@@ -71,7 +59,6 @@ app.get('/api/posts/:id', (req, res) => {
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const allPosts = JSON.parse(fileContent);
     
-    // ID se post dhundho
     const foundPost = allPosts.find(post => post.id === postId);
     
     if (!foundPost) {
@@ -93,8 +80,8 @@ app.get('/api/posts/:id', (req, res) => {
   }
 });
 
-// Server start karo
-app.listen(PORT, () => {
+// ✅ '0.0.0.0' add karo production ke liye
+app.listen(PORT, '0.0.0.0', () => {
   console.log('Server shuru ho gaya: http://localhost:' + PORT);
   console.log('Health check: http://localhost:' + PORT + '/api/health');
   console.log('Saare posts: http://localhost:' + PORT + '/api/posts');
